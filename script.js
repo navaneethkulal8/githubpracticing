@@ -9,8 +9,8 @@ form.addEventListener('submit',(e)=>{
     if (todo){
         const todoEl = document.createElement
         ("li");
-        todoEl.innnerText = todo;
-        todos.appendChild(todo);
+        todoEl.innnerText = todoText;
+        todos.appendChild(todoEl);
     }
 
 
